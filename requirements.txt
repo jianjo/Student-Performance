@@ -1,0 +1,9 @@
+seaborn
+matplotlib
+numpy
+pandas
+pyarrow
+requests
+ucimlrepo
+snakemake
+scikit-learn
