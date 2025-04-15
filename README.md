@@ -44,7 +44,7 @@ All features are encoded as integer values, with no missing data points.
 
 ## Data Pre-Processing 
 ### High School Data 
->[highschool_data_import.py](../scripts/highschool_data_import.py) 
+>[highschool_data_import.py](scripts/highschool_data_import.py) 
 
 This python file includes the process of importing high school dataset and pre-processing/cleaning the dataset.
 
@@ -62,7 +62,7 @@ This python file includes the process of importing high school dataset and pre-p
 - The final grade (G3) is converted to a letter grade scale (0-7) for the high school grading system to match the college grading scale, allowing for unified analysis.
 
 ### College Data 
->[college_data_import.py](../scripts/college_data_import.py)
+>[college_data_import.py](scripts/college_data_import.py)
 
 This script includes the process of importing college dataset and pre-processing/cleaning the dataset.
 
@@ -76,7 +76,7 @@ This script includes the process of importing college dataset and pre-processing
 - Study time categories are adjusted to match the high school dataset.
 
 ## Data Integration
->[data_integration.py](../scripts/data_integration.py)
+>[data_integration.py](scripts/data_integration.py)
 
 This script combines the preprocessed high school and college datasets.
 
@@ -86,12 +86,12 @@ This script combines the preprocessed high school and college datasets.
 3. Saves the integrated dataset as 'students.csv' in the 'integrated_data' directory.
 
 ## Data Acquisition
->[data_acquisition.py](../scripts/data_acquisition.py)
+>[data_acquisition.py](scripts/data_acquisition.py)
 
 This script checks if the datasets exist in the correct location. 
 
 ## Data Analysis 
->[data_analysis.py](../scripts/data_analysis.py)
+>[data_analysis.py](scripts/data_analysis.py)
 
 This script performs initial exploratory data analysis on the integrated dataset.
 
